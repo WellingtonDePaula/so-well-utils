@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 
-namespace Wellz.Utils.Core {
+namespace Wellz.Core.Utils {
     public static class UtilsClass {
         public static Vector3 GetMouseWorldPosition() {
             return GetMouseWorldPosition(Input.mousePosition, Camera.main);

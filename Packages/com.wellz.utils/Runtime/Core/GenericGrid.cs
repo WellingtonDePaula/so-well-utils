@@ -1,7 +1,16 @@
 ﻿using System;
 using UnityEngine;
 
+<<<<<<< HEAD
 namespace Wellz.Utils.Core {
+=======
+namespace Wellz.Core.Utils {
+    public class GenericGrid<TGridType> {
+        private int width;
+        private int height;
+        private float cellSize;
+        private Vector3 originPos;
+>>>>>>> parent of 9f84043 (Rename namespace to Wellz.Utils.Core)
 
     /// <summary>
     /// Grade 2D genérica de propósito geral.
