@@ -283,7 +283,7 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.wellz.com.wellz.utils": {
+    "com.wellz.utils": {
       "version": "file:com.wellz.utils",
       "depth": 0,
       "source": "embedded",
