@@ -1,0 +1,9 @@
+# [tipo]([escopo]): [Verbo no infinitivo] [Breve resumo em português - máx 50 carac.]
+# ex: fix(fishing): corrigir NullReference em FishingInteractor
+# ------------------------------------------------------------------------------
+# (Linha em branco obrigatória acima. Apague estas linhas de comentário se desejar)
+
+# Corpo (Opcional): Explique resumidamente o "porquê" e o "o que" da mudança.
+# NÃO narre ou liste os arquivos modificados.
+
+# Rodapé (Opcional): Referência a issues (ex: #123) ou BREAKING CHANGE: descrição.

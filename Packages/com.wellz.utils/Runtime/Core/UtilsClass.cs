@@ -53,13 +53,34 @@ namespace Wellz.Utils.Core {
         /// Abstracts screen position fetching depending on which Input System is active in the project settings.
         /// </summary>
         /// <returns>The current screen position of the cursor.</returns>
-        private static Vector3 GetMouseScreenPosition() {
+        public static Vector3 GetMouseScreenPosition() {
 #if ENABLE_INPUT_SYSTEM
             if (Mouse.current != null) {
                 return Mouse.current.position.ReadValue();
             }
 #endif
             return Input.mousePosition;
+        }
+
+        public static Vector2 GetMouseCanvasPosition(RectTransform canvasRectTransform, Camera camera = null) {
+            if (canvasRectTransform == null) {
+                Debug.LogWarning("UtilsClass: Canvas RectTransform is null.");
+                return Vector2.zero;
+            }
+
+            Vector3 screenPosition = GetMouseScreenPosition();
+            Vector2 localPoint;
+
+            // Se o Canvas for Screen Space - Overlay, a câmera DEVE ser null.
+            // Se for Screen Space - Camera ou World Space, passa a câmera informada ou a Camera.main.
+            RectTransformUtility.ScreenPointToLocalPointInRectangle(
+                canvasRectTransform,
+                screenPosition,
+                camera,
+                out localPoint
+            );
+
+            return localPoint;
         }
 
         // ─── 2D Physics & UI ────────────────────────────────────────────────
