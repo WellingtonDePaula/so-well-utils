@@ -92,7 +92,11 @@ namespace Wellz.Utils.Core {
         /// <returns>The <see cref="Collider2D"/> hit by the raycast, or <see langword="null"/> if nothing was intercepted.</returns>
         public static Collider2D GetMouseOverObject2D(LayerMask layerMask) {
             Vector3 mouseWorldPos = GetMouseWorldPosition();
-            RaycastHit2D hit = Physics2D.Raycast(mouseWorldPos, Vector2.zero, 0f, layerMask);
+            return GetPointOverObject2D(mouseWorldPos, layerMask);
+        }
+
+        public static Collider2D GetPointOverObject2D(Vector3 pointPos, LayerMask layerMask) {
+            RaycastHit2D hit = Physics2D.Raycast(pointPos, Vector2.zero, 0f, layerMask);
             return hit.collider;
         }
 
@@ -134,6 +138,13 @@ namespace Wellz.Utils.Core {
         public static Vector3 GetVectorFromAngle(float angle) {
             float angleRad = angle * Mathf.Deg2Rad;
             return new Vector3(Mathf.Cos(angleRad), Mathf.Sin(angleRad));
+        }
+
+        public static Camera ResolveEventCamera(Canvas canvas) {
+            if (canvas == null) {
+                return null;
+            }
+            return canvas.renderMode == RenderMode.ScreenSpaceOverlay ? null : canvas.worldCamera;
         }
 
         // ─── Debug Utilities ────────────────────────────────────────────────
