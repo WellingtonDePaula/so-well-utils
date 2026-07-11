@@ -160,7 +160,7 @@ As configured inside the `package.json` environment:
 | :--- | :--- |
 | **Package ID Name** | `utils` |
 | **Display Name** | `Wellz Utils` |
-| **Current Version** | `0.3.0` |
+| **Current Version** | `0.5.0` |
 | **Minimum Unity Required** | `6000.0.0f1` (Unity 6) |
 | **Organization Name** | `wellz` |
 | **Author Namespace** | `Wellz.Utils.Core` |
