@@ -159,11 +159,11 @@ As configured inside the `package.json` environment:
 | Property | Value |
 | :--- | :--- |
 | **Package ID Name** | `utils` |
-| **Display Name** | `Wellz Utils` |
-| **Current Version** | `0.5.0` |
+| **Display Name** | `SoWell Utils` |
+| **Current Version** | `1.0.0` |
 | **Minimum Unity Required** | `6000.0.0f1` (Unity 6) |
-| **Organization Name** | `wellz` |
-| **Author Namespace** | `Wellz.Utils.Core` |
+| **Organization Name** | `so-well-studios` |
+| **Author Namespace** | `SoWell.Utils.Core` |
 
 ---
 
