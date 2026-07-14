@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.so-well-studios.utils": {
+      "version": "file:com.so-well-studios.utils",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.2d.animation": {
       "version": "13.0.4",
       "depth": 0,
@@ -282,12 +288,6 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
-    },
-    "com.wellz.utils": {
-      "version": "file:com.wellz.utils",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",

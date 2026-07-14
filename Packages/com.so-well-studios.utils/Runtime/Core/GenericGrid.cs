@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Wellz.Utils.Core {
+namespace SoWell.Utils.Core {
     /// <summary>
     /// General-purpose generic 2D grid.
     /// Supports iteration, searching, change events, and coordinate conversion.

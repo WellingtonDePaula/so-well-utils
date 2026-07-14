@@ -1,5 +1,5 @@
 {
-    "name": "Wellz.Utils.Runtime",
+    "name": "SoWell.Utils.Runtime",
     "rootNamespace": "",
     "references": [
         "GUID:75469ad4d38634e559750d17036d5f7c"

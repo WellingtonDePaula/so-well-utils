@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 #endif
 
-namespace Wellz.Utils.Core {
+namespace SoWell.Utils.Core {
     /// <summary>
     /// General utility functions for Unity 6 projects, focusing on 2D systems, coordinate math, and input handling.
     /// </summary>
@@ -59,7 +59,7 @@ namespace Wellz.Utils.Core {
                 return Mouse.current.position.ReadValue();
             }
 #endif
-            return Input.mousePosition;
+            return UnityEngine.Input.mousePosition;
         }
 
         public static Vector2 GetMouseCanvasPosition(RectTransform canvasRectTransform, Camera camera = null) {
