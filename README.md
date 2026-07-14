@@ -1,4 +1,4 @@
-# Wellz Utils
+# SoWell Utils
 
 A robust, highly optimized utility package for **Unity 6** designed to streamline 2D game development, grid-based architectures, and common mathematical or input operations.
 
@@ -28,7 +28,7 @@ You can install this package directly into your Unity project via the **Unity Pa
 3. Click the `+` icon in the top-left corner and select **Add package from git URL...**
 4. Paste the following URL:
    ```text
-   https://github.com/WellingtonDePaula/wellz-utils.git#upm
+   https://github.com/WellingtonDePaula/so-well-utils.git#upm
    ```
 5. Click **Add**.
 
