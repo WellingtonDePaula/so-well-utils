@@ -1,0 +1,16 @@
+{
+  "name": "com.so-well-studios.utils",
+  "displayName": "SoWell Utils",
+  "version": "1.1.0",
+  "unity": "6000.0",
+  "unityRelease": "0f1",
+  "description": "Core utilities, extensions, and common patterns for Unity 6 projects developed by Wellz.",
+  "author": {
+    "name": "SoWell Studios",
+    "url": "https://github.com/WellingtonDePaula",
+    "email": "studiossowell@gmail.com"
+  },
+  "changelogUrl": "https://github.com/WellingtonDePaula/so-well-utils",
+  "documentationUrl": "https://github.com/WellingtonDePaula/so-well-utils",
+  "licensesUrl": "https://github.com/WellingtonDePaula/so-well-utils"
+}
