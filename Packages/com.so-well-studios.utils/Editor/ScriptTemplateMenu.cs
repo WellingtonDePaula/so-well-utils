@@ -4,26 +4,26 @@ using System.IO;
 
 namespace Wellz.Utils.Editor {
     public static class ScriptTemplateMenu {
-        private const string PackageFolderName = "com.wellz.utils"; // Altere para o 'name' exato do seu package.json
+        private const string PackageFolderName = "com.so-well-studios.utils"; // Altere para o 'name' exato do seu package.json
 
         // Menu para o MonoBehaviour Customizado
-        [MenuItem("Assets/Create/Wellz Utils/Custom MonoBehaviour", false, 20)]
+        [MenuItem("Assets/Create/SoWell Utils/Custom MonoBehaviour", false, 20)]
         public static void CreateCustomMonoBehaviour() {
-            string templatePath = $"Packages/{PackageFolderName}/ScriptTemplates/20-Wellz Utils__Custom MonoBehaviour-ExampleMono.cs.txt";
+            string templatePath = $"Packages/{PackageFolderName}/ScriptTemplates/20-SoWell Utils__Custom MonoBehaviour-ExampleMono.cs.txt";
             CreateScriptFromTemplate(templatePath, "NewExampleMono.cs");
         }
 
         // Menu para a Classe C# Comum
-        [MenuItem("Assets/Create/Wellz Utils/Custom Class", false, 21)]
+        [MenuItem("Assets/Create/SoWell Utils/Custom Class", false, 21)]
         public static void CreateCustomClass() {
-            string templatePath = $"Packages/{PackageFolderName}/ScriptTemplates/21-Wellz Utils__Custom Class-ExampleClass.cs.txt";
+            string templatePath = $"Packages/{PackageFolderName}/ScriptTemplates/21-SoWell Utils__Custom Class-ExampleClass.cs.txt";
             CreateScriptFromTemplate(templatePath, "NewExampleClass.cs");
         }
 
         // NOVO: Menu para o ScriptableObject Customizado
-        [MenuItem("Assets/Create/Wellz Utils/Custom ScriptableObject", false, 22)]
+        [MenuItem("Assets/Create/SoWell Utils/Custom ScriptableObject", false, 22)]
         public static void CreateCustomScriptableObject() {
-            string templatePath = $"Packages/{PackageFolderName}/ScriptTemplates/22-Wellz Utils__Custom ScriptableObject-ScriptableObject.cs.txt";
+            string templatePath = $"Packages/{PackageFolderName}/ScriptTemplates/22-SoWell Utils__Custom ScriptableObject-ScriptableObject.cs.txt";
             CreateScriptFromTemplate(templatePath, "NewScriptableObject.cs");
         }
 
