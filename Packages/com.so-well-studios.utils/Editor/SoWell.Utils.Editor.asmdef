@@ -1,3 +1,18 @@
 {
-	"name": "Wellz.Utils.Editor"
+    "name": "Wellz.Utils.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:16eb93ffd0a30fc4a9c1b92bc4369618"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
